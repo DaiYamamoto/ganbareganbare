@@ -7,5 +7,29 @@
 <html>
 <body>
 body要sxxxの内容は、ブラウザに表示されます。
+
+
+<script type="text/javascript">
+      alert("Hello JavaScript:D");
+
+//var calendar = CalendarApp.getCalendarById('./source.txt');
+
+  var response = UrlFetchApp.fetch('./source.txt');
+  
+  var text = response.getContentText();
+
+ var csvData = text.split('\n');   
+
+ console.log(csvData);
+
+
+
+</script>
+
 </body>
+
+
+
+
+
 </html>
