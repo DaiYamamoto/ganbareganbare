@@ -1,1 +1,1 @@
-<?php echo file_get_contents('test.html'); ?>
+<?php echo file_get_contents('index.html'); ?>
